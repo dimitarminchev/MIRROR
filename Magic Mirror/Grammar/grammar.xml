@@ -1,0 +1,48 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="playCommands"
+ xmlns="http://www.w3.org/2001/06/grammar">
+
+  <!-- Commands -->
+  <rule id="playCommands">
+    <item>Show</item>
+    <one-of>
+      <item>
+        <ruleref uri="#show" />
+      </item>
+      <item>
+        <ruleref uri="#zoom" />
+      </item>
+      <item>
+        <ruleref uri="#radio" />
+      </item>
+    </one-of>
+  </rule>
+  
+  <!-- Show  -->
+  <rule id="show">
+     <one-of>
+      <item> map </item>
+      <item> location </item>
+      <item> land slides </item>
+    </one-of>
+  </rule>
+    
+  <!-- zoom -->
+   <rule id="zoom">
+    <item>zoom</item>
+   <one-of>
+      <item> in </item>
+      <item> out </item>
+    </one-of>
+  </rule>
+    
+  <!-- Radio -->
+    <rule id="radio">
+      <item>radio</item>
+    <one-of>
+      <item> rock </item>
+      <item> classic </item>
+      <item> stop </item>
+    </one-of>
+  </rule>
+
+</grammar>
