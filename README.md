@@ -17,3 +17,7 @@ The idea of the project is to create an intelligent visual system, that is trigg
 * Audio Module: USB Audio Dongle LogiLink Model UA0053
 * Integrated Development Envirobment: Visual Studio 2017 Comunity Edition
 
+# Additional Resources
+* [YouTube Project Presentation Video](https://youtu.be/s_f5O5S96uA)
+* [GitHub Source Code Repository](https://github.com/dimitarminchev/Mirror.git)
+* [The MIT License](https://opensource.org/licenses/MIT)
