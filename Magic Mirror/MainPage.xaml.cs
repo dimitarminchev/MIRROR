@@ -57,6 +57,7 @@ namespace Magic_Mirror
 
             // Available Voice Commands
             List<String> voice = new List<string>();
+            voice.Add("Show Mirror");
             voice.Add("Show Map");
             voice.Add("Show Location");
             voice.Add("Show LandSlides");
@@ -143,6 +144,27 @@ namespace Magic_Mirror
         // Main 
         private async void MainCommands(string commands)
         {
+            // Commands
+            if (commands.ToLower().Contains("commands"))
+            {
+                MessageShow("Show Commands");
+                await this.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                {
+                    Commands.Visibility = Visibility.Visible;
+                });
+            }
+            // Mirror
+            if (commands.ToLower().Contains("mirror"))
+            {
+                MessageShow("Show Mirror");
+                await this.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                {
+                    Commands.Visibility = Visibility.Collapsed;
+                    Map.Visibility = Visibility.Collapsed;
+                    Map.MapElements.Clear();
+                    Map.ZoomLevel = 1;
+                });
+            }
             // Map
             if (commands.ToLower().Contains("map"))
             {
@@ -225,7 +247,7 @@ namespace Magic_Mirror
         // Zoom 
         private async void ZoomCommands(string commands)
         {
-            // Rosk
+            // Zoom In
             if (commands.ToLower().Contains("in"))
             {
                 MessageShow("Zoom In");
@@ -235,7 +257,7 @@ namespace Magic_Mirror
                 });
 
             }
-            // Classic
+            // Zoom Out
             if (commands.ToLower().Contains("out"))
             {
                 MessageShow("Zoom Out");

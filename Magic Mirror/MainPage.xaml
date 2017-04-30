@@ -6,12 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:maps="using:Windows.UI.Xaml.Controls.Maps"
+    RequestedTheme="Dark"
     mc:Ignorable="d">
 
-    <Grid Background="RoyalBlue">
+    <Grid Background="Black">
 
         <!-- Commands  -->
-        <ListView Name="Commands" VerticalAlignment="Center" HorizontalAlignment="Center" 
+        <ListView Name="Commands" VerticalAlignment="Center" HorizontalAlignment="Center"
                   IsTabStop="False" IsTapEnabled="False" FontSize="32" FontWeight="Bold" />
 
         <!-- MapControl -->

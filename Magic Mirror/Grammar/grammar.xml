@@ -23,6 +23,8 @@
       <item> map </item>
       <item> location </item>
       <item> land slides </item>
+      <item> mirror </item>
+      <item> commands </item>
     </one-of>
   </rule>
     
