@@ -1,5 +1,8 @@
-# Mirror
+# MIRROR
 The idea of the project is to create an intelligent visual system, that is triggered by voice commands. In standby mode, the system can be used as a normal mirror. After a voice command is recognized, the mirror becomes a display and can display in real-time, based on NASAs science data, the user-requested information. For example, where are there active landslides. The idea can be extended by further information retaining about previously active landslides with the purpose of future forecasting, automatic triggering and alerting users. Because of that, when in idle mode, it can process the collected data and, on the basis of probalistic algorithms, foresee possible landslides.
+
+## Youtube demo
+[![MIRROR](http://img.youtube.com/vi/s_f5O5S96uA/0.jpg)](https://www.youtube.com/watch?v=s_f5O5S96uA)
 
 # Details
 * Event: NASA Space Apps Challenge 2017
