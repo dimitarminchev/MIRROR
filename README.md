@@ -23,4 +23,4 @@ The idea of the project is to create an intelligent visual system, that is trigg
 # Additional Resources
 * [YouTube Project Presentation Video](https://youtu.be/s_f5O5S96uA)
 * [GitHub Source Code Repository](https://github.com/dimitarminchev/Mirror.git)
-* [The MIT License](https://opensource.org/licenses/MIT)
+* [The GPL License](https://opensource.org/licenses/GPL-3.0)
